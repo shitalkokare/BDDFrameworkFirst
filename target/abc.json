@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-01T06:57:16.746Z",
+        "line": 3,
+        "name": "test login functonality",
+        "description": "",
+        "id": "test-the-free-crm-application;test-login-functonality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22802060200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on page",
+            "match": {
+              "location": "StepDefination2.CRMTest.user_is_on_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1103509600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "StepDefination2.CRMTest.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1759666200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDefination2.CRMTest.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the free CRM application",
+    "description": "",
+    "id": "test-the-free-crm-application",
+    "keyword": "Feature",
+    "uri": "file:AllFeatureFiles/crm.feature",
+    "tags": []
+  }
+]
